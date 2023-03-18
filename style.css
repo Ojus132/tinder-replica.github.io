@@ -3,13 +3,12 @@ body{
 }
 
 div.mainBg{
-    position: fixed;
     height: 100vh;
     margin: 0px;
 }
 
 div.overMainBg{
-    position: static;
+    color: white;
 }
 
 h1.a{
