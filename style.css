@@ -9,7 +9,7 @@ div.mainBg{
 }
 
 div.overMainBg{
-    position: absolute;
+    position: static;
 }
 
 h1.a{
