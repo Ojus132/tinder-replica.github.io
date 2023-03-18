@@ -1,7 +1,9 @@
-body{
+.mainBg{
+    position: fixed;
+    height: "100%";
     background-image: url("https://ojus132.github.io/tinder-replica.github.io/media/bg-img.png");
-    background-attachment: fixed;
 }
+
 p.a{
     font-family: "Gotham Rounded";
     color: white;
