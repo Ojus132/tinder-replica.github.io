@@ -2,7 +2,7 @@ body{
     background-image: url("https://ojus132.github.io/tinder-replica.github.io/media/bg-img.png");
 }
 
-div.mainBg{
+.mainBg{
     position: fixed;
     height: 100%;
 }
