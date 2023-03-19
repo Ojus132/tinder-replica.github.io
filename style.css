@@ -17,7 +17,7 @@ body{
     border-bottom: 0px;
 }
 
-.header{
+.mainBg.header{
     position: sticky;
 }
 
