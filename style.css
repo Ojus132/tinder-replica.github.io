@@ -17,6 +17,10 @@ body{
     border-bottom: 0px;
 }
 
+.header{
+    position: sticky;
+}
+
 h1.a{
     font-family: "Gotham Rounded";
     color: white;
