@@ -2,14 +2,14 @@ body{
     margin: 0px;
 }
 
-div.mainBg{
+.mainBg{
     background-image: url("https://ojus132.github.io/tinder-replica.github.io/media/bg-img.png");
     position: fixed;
     height: 100vh;
     margin: 0px;
 }
 
-div.overMainBg{
+.overMainBg{
     background-color: white;
     margin: 0px;
 }
