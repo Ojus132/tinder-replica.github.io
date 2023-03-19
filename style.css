@@ -2,6 +2,8 @@ body{
     margin: 0px;
     background-image: url("https://ojus132.github.io/tinder-replica.github.io/media/bg-img.png");
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .mainBg{
