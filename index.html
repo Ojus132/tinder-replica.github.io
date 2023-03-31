@@ -1,89 +1,43 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(D:/HTML_test/tindrep/media/bg-img.png);
-    background-size: cover;
-    background-attachment: fixed;
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tinder | Dating, Make Friends & Meet New People</title>
+        <link rel="stylesheet" href="D:\HTML_test\tindrep\style.css">
+        <link rel="icon" href="https://ojus132.github.io/tinder-replica.github.io/media/icon.png">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <meta name="author" content="Öjus Kadu"/>
+    </head>
+    <body>
+        <div class="bg">
+            <div class="header">
+                <img src="D:/HTML_test/tindrep/media/whiteLogoOnTop.png" height="65%">
+                <ul>
+                    <li>Products</li>
+                    <li>Learn</li>
+                    <li>Safety</li>
+                    <li>Support</li>
+                    <li>Download</li>
+                </ul>
 
-.bg{
-    height: 100vh;
-    z-index: -1;
-}
 
-.header{
-    display: flex;
-    margin: 0px;
-    padding: 20px;
-    height: 8vh;
-    position: fixed;
-    color: white;
-    align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0s));
-}
+                <button class="login">Log in</button>
+            </div>
 
-.header ul{
-    display: flex;
-    list-style-type: none;
-    font-size: 125%;
-} 
+            <div class="content">
+                <div class="tagline">
+                    Start something epic.
+                </div>
+                
+                <div class="break"></div>
 
-.header li{
-    margin: 10px;
-}
+                <div class="accntButton">
+                <button id="createAccount">
+                    Create account
+                </button>
+                </div>
+            </div>
+        </div>
 
-.header li:hover{
-    color: red;
-    text-decoration: underline;
-}
-
-.login{
-    background-color: white;
-    border: none;
-    padding: 7px 30px;
-    font-size: 125%;
-    align-items: right;
-    border-radius: 100px;
-}
-
-.login:hover {
-    background-color: #E1D9D1;
-}
-
-.break{
-    height: 0px;
-}
-
-.content{
-    margin: 0px;
-    padding: 0px;
-    height: 80vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;    
-    color: white;
-    font-size: 550%;
-    font-weight: 900;
-}
-
-#createAccount{
-    border: none;
-    background-color: red;
-    color: white;
-    margin: 40px;
-    padding: 10px 40px;
-    font-size: 20%;
-    border-radius: 100px;
-}
-
-#createAccount:hover{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15));
-    
-}
-
-.belowMainBg{
-    background-color: white;
-    margin: 0px;
-    height: 500px;
-}
+        <div class="belowMainBg"></div>
+    </body>
+</html>
