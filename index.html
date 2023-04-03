@@ -9,7 +9,12 @@
     </head>
     <body>
 
-        
+        <script>
+            function openLoginPop(){
+                document.getElementById("loginPop").style.display="block"
+            }
+
+        </script>
 
         <div class="bg">
             <div class="header">
@@ -30,7 +35,7 @@
                 </ul>
 
 
-                <button type="button" class="login">Log in</button>
+                <button type="button" class="login" onclick="openLoginPop()">Log in</button>
             </div>
 
             <div class="content">
@@ -47,6 +52,8 @@
                 </div>
             </div>
         </div>
+
+        <div id="loginPop"></div>
 
         <div class="belowMainBg"></div>
         

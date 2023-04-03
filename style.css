@@ -71,6 +71,18 @@ body{
     background-color: #E1D9D1;
 }
 
+#loginPop{
+    display: none;
+    position: fixed;
+    top: 20vh;
+    left: 35%;
+    background-color: white;
+    height: 60vh;
+    width: 30%;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 .break{
     height: 0px;
 }
