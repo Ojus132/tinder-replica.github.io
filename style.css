@@ -96,7 +96,15 @@ body{
     box-sizing: border-box;
     border-radius: 10px;
     z-index: 4;
+    padding: 20px;
 }
+
+.cross{
+    width: 20px;
+    float: right;
+}
+
+
 
 .break{
     height: 0px;
