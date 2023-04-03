@@ -11,9 +11,27 @@
 
         <script>
             function openLoginPop(){
-                document.getElementById("loginPop").style.display="block"
+                document.getElementById("loginPop").style.display="block";
+                document.getElementById("bgLoginPop").style.display="block";
             }
 
+            function disableScroll() {
+                // Get the current page scroll position
+                scrollTop =
+                window.pageYOffset || document.documentElement.scrollTop;
+                scrollLeft =
+                window.pageXOffset || document.documentElement.scrollLeft,
+          
+                // if any scroll is attempted,
+                // set this to the previous value
+                window.onscroll = function() {
+                    window.scrollTo(scrollLeft, scrollTop);
+                };
+            }
+          
+            function enableScroll() {
+                window.onscroll = function() {};
+            }
         </script>
 
         <div class="bg">
@@ -25,6 +43,11 @@
                         <div class="productsDropdown">
                             <a>Premium features</a>
                             <a>Subscription tiers</a>
+                            <ul style="list-style-type: none;">
+                                <li><a href="https://tinder.com/en-GB/feature/plus">Tinder Plus</a></li>
+                                <li><a href="https://tinder.com/en-GB/feature/gold">Tinder Gold</a></li>
+                                <li><a href="https://tinder.com/en-GB/feature/platinum">Tinder Platinum</a></li>
+                            </ul>
                             <a>Swipe Night</a>
                         </div>
                     </li>
@@ -35,7 +58,7 @@
                 </ul>
 
 
-                <button type="button" class="login" onclick="openLoginPop()">Log in</button>
+                <button type="button" class="login" onclick="openLoginPop(),disableScroll()">Log in</button>
             </div>
 
             <div class="content">
@@ -53,7 +76,9 @@
             </div>
         </div>
 
+        <div id="bgLoginPop">
         <div id="loginPop"></div>
+        </div>
 
         <div class="belowMainBg"></div>
         

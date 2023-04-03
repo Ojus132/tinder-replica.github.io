@@ -71,6 +71,19 @@ body{
     background-color: #E1D9D1;
 }
 
+.bgLoginPop{
+    display: block;
+    height: 100vh;
+    margin: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+    z-index: 3;
+}
+
 #loginPop{
     display: none;
     position: fixed;
@@ -81,6 +94,8 @@ body{
     width: 30%;
     margin: 0px;
     box-sizing: border-box;
+    border-radius: 10px;
+    z-index: 4;
 }
 
 .break{
@@ -100,6 +115,11 @@ body{
     font-weight: 900;
 }
 
+.tagline{
+    position: relative;
+    top: 20%;
+}
+
 #createAccount{
     border: none;
     background-color: red;
@@ -108,6 +128,8 @@ body{
     padding: 10px 40px;
     font-size: 20%;
     border-radius: 100px;
+    position: relative;
+    top: 100%;
 }
 
 #createAccount:hover{
