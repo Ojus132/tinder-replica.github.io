@@ -22,19 +22,40 @@ body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0s));
 }
 
-.header ul{
+.navBar{
     display: flex;
     list-style-type: none;
     font-size: 125%;
 } 
 
-.header li{
+.navBar li{
     margin: 10px;
 }
 
-.header li:hover{
+.navBar li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navBar li a:hover{
     color: red;
     text-decoration: underline;
+}
+
+.productsDropdown{
+    position: absolute;
+    top: 60px;
+    margin: 10px;
+    display: none;
+}
+
+.productsDropdown a{
+    display: block; 
+    margin: 10px;  
+}
+
+.Products:hover .productsDropdown{
+    display: block;
 }
 
 .login{
@@ -59,7 +80,7 @@ body{
     padding: 0px;
     height: 80vh;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;    
     color: white;
@@ -71,7 +92,7 @@ body{
     border: none;
     background-color: red;
     color: white;
-    margin: 40px;
+    margin: 30px;
     padding: 10px 40px;
     font-size: 20%;
     border-radius: 100px;
@@ -79,7 +100,7 @@ body{
 
 #createAccount:hover{
     background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15));
-    
+    color: #E1D9D1;
 }
 
 .belowMainBg{
