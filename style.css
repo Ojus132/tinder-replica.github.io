@@ -4,6 +4,7 @@ body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://ojus132.github.io/tinder-replica.github.io/media/bg-img.png');
     background-size: cover;
     background-attachment: fixed;
+    font-famjly: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /*2 blocks to remove scrollbar*/
