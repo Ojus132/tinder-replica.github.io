@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('https://ojus132.github.io/tinder-replica.github.io/media/bg-img.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://ojus132.github.io/tinder-replica.github.io/media/bg-img.png');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -16,10 +16,12 @@ body{
     margin: 0px;
     padding: 20px;
     height: 8vh;
+    width: 100%;
     position: fixed;
+    top: 0px;
     color: white;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0s));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0));
 }
 
 .navBar{
@@ -64,12 +66,31 @@ body{
     display: block;
 }
 
+.safetyDropdown{
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 360px;
+    margin: 0px;
+}
+
+.safetyDropdown a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.Safety:hover .safetyDropdown{
+    display: block;
+}
+
 .login{
     background-color: white;
     border: none;
     padding: 7px 30px;
     font-size: 125%;
-    align-items: right;
+    float: right;
     border-radius: 100px;
 }
 
@@ -77,8 +98,8 @@ body{
     background-color: #E1D9D1;
 }
 
-.bgLoginPop{
-    display: block;
+#bgLoginPop{
+    display: none;
     height: 100vh;
     margin: 0px;
     box-sizing: border-box;
@@ -109,8 +130,6 @@ body{
     width: 20px;
     float: right;
 }
-
-
 
 .break{
     height: 0px;
